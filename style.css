@@ -1,0 +1,14 @@
+body{
+    background-color: black;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.navigation a{
+    text-decoration: none;
+    color:white;
+
+}

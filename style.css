@@ -1,14 +1,79 @@
+:root {
+    --bg-color:#000000;
+    --second-bg-color:#ffbfbf80;
+    --text-color:white;
+    --main-color:#ff9100;
+}
+
 body{
-    background-color: black;
+    background-color:var(--bg-color);
     font-family: Arial, Helvetica, sans-serif;
+    
 }
 .header{
     display: flex;
     justify-content: space-between;
     align-items: center;
+    color: var(--second-bg-color);
 }
+.front{
+    color:var(--text-color);
+    text-decoration: none;
+    font-weight: 800;
+    font-size: 40px;
+}
+
 .navigation a{
     text-decoration: none;
-    color:white;
-
+    color:var(--text-color);
 }
+.navigation a:hover{
+    color: var(--main-color); 
+    text-decoration: underline;
+    transition: 0.3s ease;
+ }
+.navigation li {
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 800;
+   align-items: center;
+        float: right;
+        width: 130px;
+        padding: 10px;
+    }
+
+    .nav-list{
+        display: flex;
+        align-items: center;
+    }
+    .text{
+        display: flex;
+        padding-top: 300px;
+        margin: 100px;
+
+    }
+    .first-artic{
+color:var(--text-color);
+font-weight: 600;
+font-size: 40px;
+    }
+
+    /* second site about recruiters */
+
+    .second-site{
+        color: var(--main-color);
+display: flex;
+
+    }
+    section .about-us{
+        min-height: 100vh;
+        padding: 10rem 12% 10rem;
+        background-color: var(--second-bg-color);
+    }
+
+    section .recruiters{
+        min-height: 100vh;
+        padding: 10rem 12% 10rem;
+        background-color: var(--bg-color);
+    }
+    

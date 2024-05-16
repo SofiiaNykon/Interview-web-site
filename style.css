@@ -1,8 +1,8 @@
 :root {
     --bg-color:#000000;
-    --second-bg-color:#cc3d2a;
+    --second-bg-color:#33a3e4;
     --text-color:white;
-    --main-color:#ff9100;
+    --main-color:#476bdf;
 }
 
 body{
@@ -11,17 +11,21 @@ body{
     
 }
 .header{
+    height: 100px;
+    position:fixed;
+    background-color: var(--second-bg-color);
+    top:0;
+    left:0;
+    width:100%;
     display: flex;
-    margin: 40px;
     justify-content: space-between;
     align-items: center;
 }
 .front{
     color:var(--text-color);
     text-decoration: none;
-    font-weight: 800;
-    font-size: 40px;
-}
+    font-weight: 700;
+    font-size: 30px;}
 
 .navigation a{
     text-decoration: none;
@@ -71,8 +75,10 @@ display: flex;
     }
 
     .second-site{
+        margin-left: -20px;
         margin-top: 50rem;
         min-height: 100vh;
+        min-width: 100%;
         padding: 10rem 12% 10rem;
         background-color: var(--main-color);
     }
@@ -84,5 +90,9 @@ display: flex;
         height: 200px;
 width: 500px;
         display: flex;
-        margin-top: 300px
+        margin-top: 300px;
+    }
+    h3{
+        color:var(--text-color);
+        text-align: center;
     }

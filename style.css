@@ -1,6 +1,6 @@
 :root {
     --bg-color:#000000;
-    --second-bg-color:#ffbfbf80;
+    --second-bg-color:#cc3d2a;
     --text-color:white;
     --main-color:#ff9100;
 }
@@ -12,9 +12,9 @@ body{
 }
 .header{
     display: flex;
+    margin: 40px;
     justify-content: space-between;
     align-items: center;
-    color: var(--second-bg-color);
 }
 .front{
     color:var(--text-color);
@@ -41,7 +41,6 @@ body{
         width: 130px;
         padding: 10px;
     }
-
     .nav-list{
         display: flex;
         align-items: center;
@@ -61,7 +60,7 @@ font-size: 40px;
     /* second site about recruiters */
 
     .second-site{
-        color: var(--main-color);
+        color: var(--text-color);
 display: flex;
 
     }
@@ -71,9 +70,19 @@ display: flex;
         background-color: var(--second-bg-color);
     }
 
-    section .recruiters{
+    .second-site{
+        margin-top: 50rem;
         min-height: 100vh;
         padding: 10rem 12% 10rem;
-        background-color: var(--bg-color);
+        background-color: var(--main-color);
     }
-    
+    .recrut-text{
+        display: flex;
+        justify-content: space-between;
+    }
+    .div{
+        height: 200px;
+width: 500px;
+        display: flex;
+        margin-top: 300px
+    }

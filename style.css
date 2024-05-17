@@ -85,12 +85,18 @@ display: flex;
     .recrut-text{
         display: flex;
         justify-content: space-between;
+        height:0;
     }
     .div{
         height: 200px;
 width: 500px;
         display: flex;
         margin-top: 300px;
+    }
+    .three{
+        min-height: 70vh;
+        padding: 10rem 12% 10rem;
+        background-color: var(--bg-color);  
     }
     h3{
         color:var(--text-color);

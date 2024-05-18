@@ -103,23 +103,23 @@ width: 500px;
         text-align: center;
     }
     .feedback{
+        margin-top: 150px;
 display: flex;
-    }
-    .first-fb{
-        background-color: var(--main-color); 
-        color: var(--text-color);
-height: 50px;
-width: 50px;
+justify-content: space-between;
     }
     .second-fb{
         background-color: var(--main-color); 
         color: var(--text-color);
-height: 50px;
-width: 50px;
+height: 400px;
+width: 400px;
+border-radius: 30px;
+box-shadow: 10px 10px 10px 10px rgb(9, 59, 124);;
     }
     .third-fb{
         background-color: var(--main-color); 
         color: var(--text-color);
-height: 50px;
-width: 50px;
-    }
+height: 400px;
+width: 400px;
+border-radius: 30px;
+box-shadow: 10px 10px 10px 10px rgb(9, 59, 124);;
+    };

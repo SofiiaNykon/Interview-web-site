@@ -157,4 +157,10 @@ box-shadow: 10px 10px 10px 10px rgb(9, 59, 124);;
         margin: 0 20px -1px 40px;
         border-radius: 10px;
     }
-   
+   .msg{
+    height:250px;
+    width:300px;
+    background-color: var(--bg-color);
+    margin: 0 20px -1px 40px;
+    border-radius: 10px;
+   }

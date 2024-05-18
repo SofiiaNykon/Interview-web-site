@@ -98,11 +98,23 @@ width: 500px;
         padding: 10rem 12% 10rem;
         background-color: var(--bg-color);  
     }
-    h3{
+    h2{
+        margin: auto;
+        margin-top: 10px;
         color:var(--text-color);
         text-align: center;
         font-size: 50px;
         font-weight: 800;
+    }
+    h3{
+        text-align: center;
+        color:var(--text-color);
+        text-align: center;
+        font-size: 50px;
+        font-weight: 800;
+        text-align: center;
+        margin: auto;
+        margin-top: 6rem;
     }
     .feedback{
         margin-top: 150px;

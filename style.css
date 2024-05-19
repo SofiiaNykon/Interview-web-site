@@ -171,14 +171,24 @@ display: flex;
 justify-items: flex-end;
    }
    .four{
-    min-height: 100vh;
+    min-height: 90vh;
     padding: 25rem 12% 5rem;
-    background-color: var(--second-bg-color);
+    background-color: var(--main-color);
    }
    .footer{
     margin: 0;
-    height: 100px;
+    height: 200px;
     width: 100%;
     /* margin: 10px -500px -40px -10px; */
-    background-color: var(--main-color);
+    background-color: var(--bg-color);
+   }
+   h4{
+    text-align: center;
+   color: var(--text-color);
+   font-weight: 800;
+   font-size: 70px;
+   margin-top: 5px;
+   }
+   span{
+    color: var(--bg-color);
    }

@@ -191,4 +191,9 @@ justify-items: flex-end;
    }
    span{
     color: var(--bg-color);
+    text-shadow: #33a3e4;
+   }
+   .input{
+    color: var(--text-color);
+    background-color: rgb(217, 226, 233);
    }

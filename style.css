@@ -258,3 +258,9 @@ color: var(--text-color);
     color: var(--text-color);
     text-align: center;
    }
+
+   ::-webkit-scrollbar {
+    width: 15px;}
+    ::-webkit-scrollbar-thumb {
+        background-color: var(--main-color);
+    }

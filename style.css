@@ -224,3 +224,20 @@ justify-items: flex-end;
     color: var(--text-color);
     background-color: rgb(217, 226, 233);
    }
+
+.footer .list{
+    margin-top: 30px;
+color: var(--text-color);
+text-align: center;
+}
+.footer .list a {
+    text-decoration: none;
+color: var(--text-color);
+}
+.footer .list ul{
+    text-decoration: none;
+}
+   .copyright{
+    color: var(--text-color);
+    text-align: center;
+   }

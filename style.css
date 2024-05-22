@@ -98,7 +98,7 @@ display: flex;
 
     }
     section .about-us{
-        min-height: 100vh;
+        min-height: 70vh;
         padding: 10rem 12% 10rem;
         background-color: var(--second-bg-color);
     }
@@ -106,7 +106,7 @@ display: flex;
     .second-site{
         margin-left: -20px;
         margin-top: 50rem;
-        min-height: 100vh;
+        min-height: 70vh;
         min-width: 100%;
         padding: 10rem 12% 10rem;
         background-color: var(--main-color);

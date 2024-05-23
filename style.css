@@ -9,11 +9,11 @@ html{
 }
 
 body{
-    background-color:var(--bg-color);
     font-family: Arial, Helvetica, sans-serif;
     
 }
 .header{
+    z-index: 1;
     height: 100px;
     position:fixed;
     background-color: var(--second-bg-color);
@@ -25,6 +25,7 @@ body{
     align-items: center;
     padding: 20px;
 }
+
 .front{
     padding-left: 30px;
     color:var(--bg-color);
@@ -95,7 +96,27 @@ ul li a{
         margin: 100px;
 
     }
+
+    .about-us{
+        height: 110vh;
+        background-image: url(./it.jpg);
+        background-size: contain;
+    }
+    .about-us::after{
+        content:"";
+        position: absolute;
+        /* height: 110vh; */
+        background: var(--bg-color);
+        opacity: .65;
+        height: 100%;
+        width:100%;;
+        top:0;
+        left:0;
+        background-size: contain;
+    }
+
     .first-artic{
+        z-index: 1;
         margin: 200px;
 color:var(--text-color);
 font-weight: 600;
@@ -104,10 +125,9 @@ text-align: center;
 margin-top: 15rem;
     }
     .social-icons{
+        z-index: 1;
         list-style: none;
         margin: 1em;
-        /* display: flex;
-        justify-content: center; */
         display: block;
         position:relative;
         text-align: center;
@@ -119,6 +139,7 @@ margin-top: 15rem;
         font-size:3em;
     }
     .social-icons i{
+        cursor: pointer;
         color: #fff;
         position: absolute;
         top: 21px;
@@ -286,6 +307,12 @@ justify-items: flex-end;
     color: var(--text-color);
     background-color:var(--main-color);
    }
+  .inp{
+    margin-top: 30px;
+  }
+  .sumbit{
+    margin-top: 15rem;
+  }
    .input-box{
     display: flex;
     flex-direction: column;
@@ -301,7 +328,10 @@ justify-items: flex-end;
     border: 2px solid var(--bg-color);
     border-radius: 10px;
     background-color: var(--second-bg-color);
-    color: var(--bg-color);
+    color: var(--bg-color);}
+   option{
+height: 100px;
+width: 100px;
    }
 
 .footer .list{

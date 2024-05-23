@@ -4,6 +4,9 @@
     --text-color:white;
     --main-color:#476bdf;
 }
+html{
+    margin: -200px;
+}
 
 body{
     background-color:var(--bg-color);
@@ -35,15 +38,19 @@ body{
     .front:hover{
         transform: scale(1.3)translateY(-5px);
     }
-
-.navigation a{
+ul li{
+    text-decoration: none;
+}
+ul li a{
     text-decoration: none;
     color:var(--text-color);
+    transition: 0.3s ease-in-out;
+    
+    
 }
-.navigation a:hover{
+ ul li a:hover{
     color: var(--main-color); 
-    text-decoration: underline;
-    transition: 0.3s ease;
+    transform: scale(1.3)translateY(-5px);
  }
 .navigation li {
     text-decoration: none;
@@ -54,8 +61,11 @@ body{
         width: 130px;
         padding: 10px;
     }
-    .nav{
+    .nav a{
         text-decoration: none;
+    }
+    ol{
+        margin-right: 50px;
     }
     .user{
         text-decoration: none;
@@ -78,6 +88,7 @@ body{
         align-items: center;
         margin-right: 30px;
     }
+
     .text{
         display: flex;
         padding-top: 300px;
@@ -85,12 +96,64 @@ body{
 
     }
     .first-artic{
+        margin: 200px;
 color:var(--text-color);
 font-weight: 600;
 font-size: 40px;
+text-align: center;
+margin-top: 15rem;
     }
-
-    /* second site about recruiters */
+    .social-icons{
+        list-style: none;
+        margin: 1em;
+        /* display: flex;
+        justify-content: center; */
+        display: block;
+        position:relative;
+        text-align: center;
+    }
+    .social-icons li{
+        display: inline-block;
+        margin:1em;
+        position: relative;
+        font-size:3em;
+    }
+    .social-icons i{
+        color: #fff;
+        position: absolute;
+        top: 21px;
+        left: 21px;
+        transition: all 265ms ease-out;
+    }
+    .social-icons a{
+display: inline-block;
+    }
+    .social-icons a:before{
+        transform: scale(1);
+        -ms-transform: scale(1);
+        -webkit-transform: scale(1);
+        content: " ";
+        width: 90px;
+        height: 90px;
+        border-radius: 100%;
+        display: block;
+        background: linear-gradient(45deg, #00b5f5, #002a8f);
+        transition: all 265ms ease-out;
+    }
+    .social-icons a:hover:before{
+        transform: scale(0);
+        transition: all 265ms ease-in;
+    }
+    .social-icons a:hover i {
+        transform: scale(2.2);
+        -ms-transform: scale(2.2);
+        -webkit-transform: scale(2.2);
+        color: #00b5f5;
+        background: -webkit-linear-gradient(45deg, #00b5f5, #002a8f);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        transition: all 265ms ease-in;
+    }
 
     .second-site{
         color: var(--text-color);
@@ -98,7 +161,7 @@ display: flex;
 
     }
     section .about-us{
-        min-height: 70vh;
+        min-height: 110vh;
         padding: 10rem 12% 10rem;
         background-color: var(--second-bg-color);
     }
@@ -106,7 +169,7 @@ display: flex;
     .second-site{
         margin-left: -20px;
         margin-top: 50rem;
-        min-height: 70vh;
+        min-height: 110vh;
         min-width: 100%;
         padding: 10rem 12% 10rem;
         background-color: var(--main-color);
@@ -123,7 +186,7 @@ width: 500px;
         margin-top: 300px;
     }
     .three{
-        min-height: 70vh;
+        min-height: 110vh;
         padding: 10rem 12% 10rem;
         background-color: var(--bg-color);  
     }
@@ -198,15 +261,14 @@ display: flex;
 justify-items: flex-end;
    }
    .four{
-    min-height: 70vh;
+    min-height: 110vh;
     padding: 25rem 12% 50rem;
     background-color: var(--main-color);
    }
    .footer{
     margin: 0;
-    height: 200px;
+    height: 150px;
     width: 100%;
-    /* margin: 10px -500px -40px -10px; */
     background-color: var(--bg-color);
    }
    h4{

@@ -66,8 +66,28 @@
                 <input type="text"
                 placeholder="Full Name">
                 <input type="email" placeholder="Email">
-                <input type="text" placeholder="Phone Number">
-                <input type="text" placeholder="Subject">
+                <input type="tel" placeholder="Phone Number">
+                <form action="#">
+                    <label for="position">Position</label>
+                    <select name="position">
+                      <option value="junior">Junior</option>
+                      <option value="middle">Middle</option>
+                      <option value="senior">Senior</option>
+                    </select>
+              </form>
+                <form action="#">
+                    <label for="lang">Language</label>
+                    <select name="languages" id="lang">
+                      <option value="javascript">JavaScript</option>
+                      <option value="typescript">TypeScript</option>
+                      <option value="html">CSS/HTMl</option>
+                      <option value="react">React</option>
+                      <option value="angular">Angular</option>
+                      <option value="swift">Swift</option>
+                      <option value="php">PHP</option>
+                    </select>
+                    <input type="submit" value="Submit" />
+              </form>
             </div>
         </div>
 

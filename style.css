@@ -51,7 +51,6 @@ body{
  }
 .navigation li {
     text-shadow: 2px 2px 2px #05053b;
-    text-decoration: none;
     font-size: 25px;
     font-weight: 600;
    align-items: center;
@@ -61,6 +60,10 @@ body{
     }
     .nav-list a{
         text-decoration: none;
+    }
+     li::marker{
+        background-color: #032337;
+  
     }
     ol{
         margin-right: 50px;
@@ -179,14 +182,13 @@ display: flex;
 
     }
     section .about-us{
-        min-height: 110vh;
+        min-height: 100vh;
         padding: 10rem 12% 10rem;
         background-color: var(--second-bg-color);
     }
 
     .second-site{
         margin-left: -20px;
-        margin-top: 50rem;
         min-height: 110vh;
         min-width: 100%;
         padding: 10rem 12% 10rem;
@@ -306,6 +308,7 @@ justify-items: flex-end;
    }
   .inp{
     margin-top: 30px;
+    font-size: 2rem;
   }
   .sumbit{
     margin-top: 15rem;
@@ -329,6 +332,15 @@ justify-items: flex-end;
    option{
 height: 100px;
 width: 100px;
+   }
+   .choose{
+    margin-top: 20px;
+    font-size: 10rem;
+    height: 130px;
+    border-radius: 10px;
+    width: 12em;
+    border: var(--bg-color);
+    background-color: var(--second-bg-color);
    }
 
 .footer .list{

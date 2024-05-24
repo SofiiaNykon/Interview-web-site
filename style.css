@@ -366,6 +366,7 @@ color: var(--text-color);
     text-decoration: none;
 }
    .copyright{
+    padding-top: 8px;
     color: var(--text-color);
     text-align: center;
    }

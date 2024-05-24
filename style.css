@@ -312,6 +312,11 @@ justify-items: flex-end;
   }
   .sumbit{
     margin-top: 15rem;
+    transition: 0.3s ease-in-out;
+  }
+  .sumbit:hover{
+    background-color: var(--bg-color);
+    color: var(--text-color);
   }
    .input-box{
     display: flex;
@@ -336,19 +341,24 @@ width: 100px;
    .choose{
     margin-top: 20px;
     font-size: 10rem;
-    height: 130px;
+    height: 200px;
     border-radius: 10px;
     width: 12em;
     border: var(--bg-color);
     background-color: var(--second-bg-color);
    }
+   .opt{
+    color: grey;
+    font-size: 5px;
+   }
 
 .footer .list{
-    margin-top: 30px;
+    margin-top: -30px;
 color: var(--text-color);
 text-align: center;
 }
 .footer .list a {
+    padding-top: 30px;
     text-decoration: none;
 color: var(--text-color);
 }

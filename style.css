@@ -312,6 +312,7 @@ justify-items: flex-end;
   }
   .sumbit{
     margin-top: 15rem;
+    width: 50%;
     transition: 0.3s ease-in-out;
   }
   .sumbit:hover{
@@ -339,13 +340,15 @@ height: 100px;
 width: 100px;
    }
    .choose{
-    margin-top: 20px;
-    font-size: 10rem;
-    height: 200px;
+    font-size: 5rem;
+    height: 130px;
     border-radius: 10px;
     width: 12em;
     border: var(--bg-color);
     background-color: var(--second-bg-color);
+    display: flex;
+    justify-content: center;
+   margin-top: 3rem;
    }
    .opt{
     color: grey;

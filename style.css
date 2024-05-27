@@ -1,3 +1,5 @@
+
+
 :root {
     --bg-color:#000000;
     --second-bg-color:#33a3e4;
@@ -5,7 +7,7 @@
     --main-color:#476bdf;
 }
 html{
-    margin: -200px;
+    overflow-x: hidden;
 }
 
 body{
@@ -305,17 +307,21 @@ justify-items: flex-end;
    .input{
     color: var(--text-color);
     background-color:var(--main-color);
+  text-align: center;
    }
   .inp{
     margin-top: 30px;
     font-size: 2rem;
   }
-  .sumbit{
+  .sub-btn{
+    width: 30rem;
+    margin-top: 25rem;
+    width: 100px;
     margin-top: 15rem;
     width: 50%;
     transition: 0.3s ease-in-out;
   }
-  .sumbit:hover{
+  .sub-btn:hover{
     background-color: var(--bg-color);
     color: var(--text-color);
   }

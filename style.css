@@ -11,9 +11,9 @@
 }
 :root {
     --bg-color:#000000;
-    --second-bg-color:#33a3e4;
+    --second-bg-color:#89caf0;
     --text-color:white;
-    --main-color:#476bdf;
+    --main-color:#1546e7;
 }
 html{
     overflow-x: hidden;
@@ -66,7 +66,7 @@ body{
     font-weight: 600;
    align-items: center;
         float: right;
-        width: 130px;
+        width: 7em;
         padding: 10px;
     }
     .nav-list a{
@@ -98,7 +98,7 @@ body{
     .nav-list{
         display: flex;
         align-items: center;
-        margin-right: 30px;
+        margin-left: 65px;
     }
 
     .text{
@@ -128,7 +128,7 @@ body{
     .first-artic{
         text-shadow: 3px 3px 2px #1111f3;
         z-index: 1;
-        margin: 200px;
+        margin: auto;
 color:var(--text-color);
 font-weight: 800;
 font-size: 40px;
@@ -302,7 +302,7 @@ justify-items: flex-end;
    .footer{
     min-width: 100%;
     margin: 0;
-    height: 150px;
+    height: 13em;
     width: 100%;
     background-color: var(--bg-color);
    }
@@ -393,7 +393,9 @@ gap: 3rem;
     color: grey;
     font-size: 5px;
    }
-
+.footer{
+    margin-top: -200px;
+}
 .footer .list{
     margin-top: -30px;
 color: var(--text-color);
@@ -406,6 +408,7 @@ color: var(--text-color);
 }
 .footer .list ul{
     text-decoration: none;
+    font-size: 20px;
 }
    .copyright{
     padding-top: 8px;

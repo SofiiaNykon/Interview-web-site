@@ -363,7 +363,7 @@ width: 100px;
    }
    .posision{
     height: 100px;
-    min-width: 44rem;
+    min-width: 75.5rem;
 font-size: 2rem;
 height: 110px;
 border-radius: 10px;
@@ -378,7 +378,7 @@ color: rgb(104, 103, 103);
    }
  
    .choose{
-    min-width: 44rem;
+    min-width: 75.5rem;
     padding-left: 25px;
     font-size: 2rem;
     color: rgb(104, 103, 103);

@@ -117,7 +117,7 @@ body{
         position: absolute;
         /* height: 110vh; */
         background: var(--bg-color);
-        opacity: .65;
+        opacity: .75;
         height: 100%;
         width:100%;;
         top:0;
@@ -219,7 +219,7 @@ width: 500px;
     }
     .three{
         min-width: 100%;
-        min-height: 90vh;
+        min-height: 100vh;
         padding: 10rem 12% 10rem;
         background-color: var(--bg-color);  
     }
@@ -311,7 +311,7 @@ justify-items: flex-end;
    color: var(--text-color);
    font-weight: 800;
    font-size: 70px;
-   margin-top: 5px;
+   margin-top: -150px;
    }
    span{
     color: var(--bg-color);
@@ -362,8 +362,9 @@ width: 100px;
     margin-top: 3rem;
    }
    .posision{
+    border: 2px solid var(--bg-color);
+    min-width: 118rem;
     height: 100px;
-    min-width: 75.5rem;
 font-size: 2rem;
 height: 110px;
 border-radius: 10px;
@@ -378,7 +379,8 @@ color: rgb(104, 103, 103);
    }
  
    .choose{
-    min-width: 75.5rem;
+    border: 2px solid var(--bg-color);
+    min-width: 118rem;
     padding-left: 25px;
     font-size: 2rem;
     color: rgb(104, 103, 103);
@@ -397,12 +399,16 @@ color: rgb(104, 103, 103);
 .footer{
     margin-top: -200px;
 }
+footer .div-footer{
+    margin-top: 90px;
+}
 .footer .list{
     margin-top: -30px;
 color: var(--text-color);
 text-align: center;
 }
 .footer .list a {
+    margin-top: 5em;
     padding-top: 30px;
     text-decoration: none;
 color: var(--text-color);
@@ -411,7 +417,19 @@ color: var(--text-color);
     text-decoration: none;
     font-size: 20px;
 }
+.social-icons-footer{
+    display: flex;
+}
+.social-container-footer a {
+   color: white;
+}
+.social-container-footer{
+    padding: 20px;
+    justify-content: center;
+    display: flex;
+}
    .copyright{
+    margin-top: 3rem;
     padding-top: 8px;
     color: var(--text-color);
     text-align: center;

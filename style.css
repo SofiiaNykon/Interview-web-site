@@ -21,6 +21,8 @@ html{
 }
 
 body{
+    display: block;
+    margin: 8px;
     font-family: Arial, Helvetica, sans-serif;
     
 }
@@ -334,7 +336,7 @@ width: 100px;
    }
    .posision{
     margin-top: -6.8rem;
-    margin-left: 24rem;
+
     min-width: 118rem;
     height: 100px;
 font-size: 2rem;
@@ -364,6 +366,10 @@ color: rgb(104, 103, 103);
     display: flex;
     justify-content: center;
    margin-top: 3rem;
+   }
+   .all-btns{
+    display: grid;
+    
    }
    .opt{
     color: grey;
@@ -420,8 +426,12 @@ color: var(--text-color);
     ::-webkit-scrollbar-thumb {
         background-color: var(--main-color);
     }
-@media screen and (max-width: 800px) {
+@media (max-width: 800px) {
     .choose, .posision{
         min-width: 37.5rem;
     }
+    header{
+        padding:2rem 3%;
+    }
+
 }

@@ -22,10 +22,9 @@ html{
 }
 
 body{
-    height:100%;
    display: block;
-    margin: 8px;
     font-family: Arial, Helvetica, sans-serif;
+    overflow-x: hidden;
     
 }
 .header{
@@ -259,6 +258,12 @@ width: 100px;
 border-radius: 30px;
 box-shadow: 10px 10px 10px 10px rgb(9, 59, 124);;
     }
+
+
+   .four{
+    padding: 25rem 12% 50rem;
+    background-color: var(--main-color);
+   }
    h4{
     text-align: center;
    color: var(--text-color);

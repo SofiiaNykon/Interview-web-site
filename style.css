@@ -85,9 +85,49 @@ body{
         background-color: #032337;
   
     }
-    ol{
-        margin-right: 50px;
-    }
+    checkbox-container.cb+.cb-btn {
+
+        outline: 0;
+        
+        display: block;
+        
+        width: 4em;
+        
+        height: 2em;
+        
+        position: relative;
+        
+        cursor: pointer;
+        
+        -webkit-user-select: none;
+        
+        -moz-user-select: none;
+        
+        -ms-user-select: none;
+        
+        user-select: none;
+        
+        }
+        
+        .checkbox-container.cb+.cb-btn:after,
+        
+        .checkbox-container.cb+.cb-btn:before {
+        
+        position: relative;
+        
+        display: block;
+        
+        content: "";
+        
+        width: 50%;
+        
+        height: 100%;
+        
+        }
+        
+        .checkbox-container.cb+.cb-btn:after {
+        
+        left: 0;}
     .user{
         text-decoration: none;
         color: var(--text-color);
@@ -103,6 +143,14 @@ body{
             width: 100px;
             padding: 10px;
             padding-right: 40px;
+    }
+    .comment-dots{
+        position: absolute;
+        z-index: 2;
+        height: 200px;
+        width: 200px;
+        background-color: red;;
+
     }
     .nav-list{
         display: flex;

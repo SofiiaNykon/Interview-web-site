@@ -90,6 +90,7 @@ body{
         width:65px;
         background-color: #fff;
         border-radius: 20px;
+        margin-right: 50px;v
     }
     .circle{
         height: 30px;
@@ -280,6 +281,7 @@ margin-top: 10rem;
     }
     .fb .fb:hover{
         transform: scale(1.1, 1.1);
+        
     }
     .feedback:hover > .fb:not(:hover){
         filter:blur(10px);
@@ -294,6 +296,7 @@ border-radius: 30px;
 transition: 0.3s ease-in-out;
 }
     .fb:hover{
+        
 transform: scale(1.7)translateY(-8px);
 display: flex;
 justify-content: center;
@@ -301,11 +304,11 @@ align-items: center;
     }
 .icons{
     background-color: white;
-    height: 50px;
-    width: 50px;
-    border-radius: 50px;
-    margin-top: 25px;
-    margin-left: 20px;
+    height: 270px;
+    width: 180px;
+    border-radius: 20px;
+    margin-top: 19px;
+    margin-left: 10px;
 }
 
    .four{
@@ -469,5 +472,9 @@ color: var(--text-color);
     header{
         padding:2rem 3%;
     }
+    .color-container{
+        display: none;
+    }
 
 }
+@media(max-width:1285px)

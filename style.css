@@ -85,49 +85,21 @@ body{
         background-color: #032337;
   
     }
-    checkbox-container.cb+.cb-btn {
-
-        outline: 0;
-        
-        display: block;
-        
-        width: 4em;
-        
-        height: 2em;
-        
-        position: relative;
-        
-        cursor: pointer;
-        
-        -webkit-user-select: none;
-        
-        -moz-user-select: none;
-        
-        -ms-user-select: none;
-        
-        user-select: none;
-        
-        }
-        
-        .checkbox-container.cb+.cb-btn:after,
-        
-        .checkbox-container.cb+.cb-btn:before {
-        
-        position: relative;
-        
-        display: block;
-        
-        content: "";
-        
-        width: 50%;
-        
-        height: 100%;
-        
-        }
-        
-        .checkbox-container.cb+.cb-btn:after {
-        
-        left: 0;}
+    .color-container{
+        height: 40px;
+        width:65px;
+        background-color: #fff;
+        border-radius: 20px;
+    }
+    .circle{
+        height: 30px;
+        width:30px;
+        background-color: #000000;
+        border-radius: 50px; 
+        margin-top: 5px;
+    margin-left: 5px; 
+    }
+    
     .user{
         text-decoration: none;
         color: var(--text-color);

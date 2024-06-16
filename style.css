@@ -279,6 +279,13 @@ align-items: center;
 margin-top: 10rem;
 
     }
+ .feedbaack-title{
+        color: black;
+       
+    }
+    .paragra-feedback{
+        color: black;
+    }
     .fb .fb:hover{
         transform: scale(1.1, 1.1);
         
@@ -477,4 +484,25 @@ color: var(--text-color);
     }
 
 }
-@media(max-width:1285px)
+@media(max-width:1400px){
+   .navigation{
+    display: none;
+   }
+.color-container{
+display: none;
+}
+.front{
+    margin: auto;
+}
+
+}
+@media(max-width:550px){
+.first-artic{
+    font-weight: 600;
+    font-size: 30px;
+    margin-top: -8rem;
+}
+.social-icons {
+    margin-top: 150px;
+}
+}

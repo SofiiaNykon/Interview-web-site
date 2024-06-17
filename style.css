@@ -51,6 +51,10 @@ body{
     margin-left: 30px;
     transition: 0.3s ease-in-out;
 }
+.bx-menu::before{
+color: white;
+font-size: 3rem;
+}
 
     .nav-list li li:hover{
         transform: scale(1.1, 1.1);

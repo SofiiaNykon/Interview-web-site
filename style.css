@@ -281,6 +281,8 @@ display: flex;
 justify-content: space-between;
 align-items: center;
 margin-top: 10rem;
+display: flex;
+justify-content: center;
 
     }
  .feedbaack-title{
@@ -326,6 +328,12 @@ align-items: center;
     padding: 25rem 12% 50rem;
     background-color: var(--main-color);
    }
+   .four h4{
+    margin-top: -14rem;
+   }
+   .contact-us{
+    margin-top: -5rem;
+   }
    h4{
     text-align: center;
    color: var(--text-color);
@@ -338,6 +346,7 @@ align-items: center;
     text-shadow: #33a3e4;
    }
    .input{
+    margin-top: 8rem;
     color: var(--text-color);
     background-color:var(--main-color);
   text-align: center;
@@ -510,3 +519,7 @@ display: none;
     margin-top: 150px;
 }
 }
+@media(max-width:770px){
+.first-artic{
+    margin-top: -10rem;
+}}

@@ -283,10 +283,21 @@ display: flex;
 justify-content: center;
 
     }
+    .one-img{
+        margin-top: 60px;
+    }
+    .two-img{
+
+    }
+    .four-img{
+
+    }
     .user-img{
-        font-size: 10px;
-        height: 15px;
+        height: 35px;
         
+    }
+    .three-img{
+        margin-top: 60px;
     }
  .feedbaack-title{
         color: black;

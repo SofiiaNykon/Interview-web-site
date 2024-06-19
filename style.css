@@ -287,10 +287,10 @@ justify-content: center;
         margin-top: 60px;
     }
     .two-img{
-
+        margin-top: 60px;
     }
     .four-img{
-
+        margin-top: 60px;
     }
     .user-img{
         height: 35px;
@@ -340,6 +340,18 @@ align-items: center;
     }
 .bx {
 color: rgb(17, 0, 255);
+}
+.bxs-star-one{
+    margin-top: 0.8rem;
+}
+.bxs-star-two{
+    margin-top: 4rem;
+}
+.bxs-star-three{
+    margin-top: 3.2rem;
+}
+.bxs-star-four{
+    margin-top: 3rem;
 }
    .four{
     padding: 25rem 12% 50rem;

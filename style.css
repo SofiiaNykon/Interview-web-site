@@ -282,6 +282,11 @@ width: 500px;
         margin: auto;
         margin-top: 6rem;
     }
+    .img-recr{
+        height: 140px;
+        width: 140px;
+        border-radius: 50%;
+    }
     .feedback{
         gap: 5rem;
         cursor: pointer;

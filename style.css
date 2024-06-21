@@ -290,6 +290,7 @@ width: 500px;
     }
     h3{
         margin-top: 0;
+        text-shadow: 5px 5px 10px rgb(100, 100, 241);
     }
     .img-recr{
         height: 140px;
@@ -330,6 +331,9 @@ justify-content: center;
     .paragra-feedback{
         color: black;
         padding: 20px;
+    }
+    .fb .fb:hover{
+        transform: scale(1.1, 1.1);
     }
     .fb .fb:hover{
         transform: scale(1.1, 1.1);

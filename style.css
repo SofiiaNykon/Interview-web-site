@@ -291,14 +291,28 @@ width: 500px;
         margin: auto;
         margin-top: 6rem;
     }
+    .rec-title{
+        color: black;
+        text-align: center;
+        margin-top: 15px;
+    }
     h3{
         margin-top: 0;
         text-shadow: 5px 5px 10px rgb(100, 100, 241);
     }
     .img-recr{
-        height: 140px;
-        width: 140px;
+        margin-top: 40px;
+        height: 300px;
+        width: 256px;
         border-radius: 50%;
+        display: flex;
+        margin: auto;
+        box-shadow: 3px 3px 15px rgb(3, 3, 139);
+    }
+    .paragraf-rec{
+        text-align: center;
+        color: black;
+        margin-top: 15px;
     }
     .recruiters{
         gap: 5rem;
@@ -312,9 +326,10 @@ justify-content: center;
     }
     .bx{
         height: 30rem;
-        width: 16rem;
-        background-color: white;
+        width: 18rem;
         border-radius: 20px;
+        background-color: rgba(83, 229, 255, 0.856);
+        box-shadow: 7px 7px 20px black;
     }
     .feedback{
         gap: 5rem;
@@ -386,12 +401,6 @@ align-items: center;
         margin-top: 19px;
         margin-left: 10px;
     }
-    .bx{
-
-    }
-.bx {
-color: rgb(17, 0, 255);
-}
 .bxs-star-one{
     margin-top: 0.8rem;
 }

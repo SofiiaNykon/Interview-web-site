@@ -52,7 +52,8 @@ body{
     transition: 0.3s ease-in-out;
 }
 .front:hover{
-    transform: scale(1.1, 1.1);  
+
+    transform: scale(1.4, 1.4);  
 }
 
     .nav-list li li:hover{
@@ -299,6 +300,22 @@ width: 500px;
         width: 140px;
         border-radius: 50%;
     }
+    .recruiters{
+        gap: 5rem;
+        cursor: pointer;
+display: flex;
+justify-content: space-between;
+align-items: center;
+margin-top: 6rem;
+display: flex;
+justify-content: center;
+    }
+    .bx{
+        height: 30rem;
+        width: 16rem;
+        background-color: white;
+        border-radius: 20px;
+    }
     .feedback{
         gap: 5rem;
         cursor: pointer;
@@ -353,6 +370,7 @@ width: 200px;
 border-radius: 30px;
 transition: 0.3s ease-in-out;
 }
+
     .fb:hover{
         
 transform: scale(1.7)translateY(-8px);
@@ -367,6 +385,9 @@ align-items: center;
         border-radius: 20px;
         margin-top: 19px;
         margin-left: 10px;
+    }
+    .bx{
+
     }
 .bx {
 color: rgb(17, 0, 255);
@@ -566,6 +587,9 @@ color: var(--text-color);
         border-radius: 20px;
         margin-top: 19px;
         margin-left: 10px;
+    }
+    .front{
+        margin: auto;
     }
 
 }

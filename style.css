@@ -228,10 +228,11 @@ display: inline-block;
     }
 
     .second-site{
+        width: 101vw;
         color: var(--text-color);
         display: flex;
         height: 100vh;
-        margin-top: -7rem;
+        margin-top: -6rem;
         margin-left: -20px;
         min-height: 90vh;
         min-width: 100%;

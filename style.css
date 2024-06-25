@@ -332,6 +332,10 @@ justify-content: center;
         border-radius: 20px;
         background-color: rgba(83, 229, 255, 0.856);
         box-shadow: 7px 7px 20px black;
+        transition: all 265ms ease-in;
+    }
+    .box:hover{
+        transform: scale(1.4, 1.4);  
     }
     .feedback{
         gap: 5rem;

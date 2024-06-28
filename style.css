@@ -593,6 +593,9 @@ color: var(--text-color);
         background-color: var(--main-color);
     }
 @media (max-width: 800px) {
+    .front{
+        margin: auto;
+    }
     .choose, .posision{
         min-width: 37.5rem;
     }
@@ -603,15 +606,8 @@ color: var(--text-color);
         display: none;
     }
     .icons{
-        background-color: white;
-        height: 270px;
-        width: 180px;
-        border-radius: 20px;
-        margin-top: 19px;
-        margin-left: 10px;
-    }
-    .front{
-        margin: auto;
+        display: flex;
+        margin-top: 23rem;
     }
 
 }
@@ -634,12 +630,10 @@ display: none;
 @media(max-width:550px){
 .first-artic{
     font-weight: 600;
-    font-size: 30px;
+    font-size: 2rem;
     margin-top: -8rem;
 }
-.social-icons {
-    margin-top: 150px;
-}
+
 }
 @media(max-width:770px){
 .first-artic{

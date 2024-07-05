@@ -227,6 +227,8 @@ display: inline-block;
         background-color: var(--second-bg-color);
     }
 .team{
+    font-size: 2rem;
+    font-weight: 600;
   margin-right: -100rem ;
 }
     .second-site{
